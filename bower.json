@@ -1,0 +1,25 @@
+{
+  "name": "dinnerplate-sass",
+  "description": "",
+  "homepage": "https://github.com/dustindowell22/dinnerplate-sass",
+  "authors": [
+    "Dustin Dowell <dustindowell22@gmail.com>"
+  ],
+  "main": "scss/main.scss",
+  "keywords": [
+    "dinnerplate",
+    "boilerplate",
+    "css",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "scss/test"
+  ],
+  "dependencies": {
+    "mint-sass": "~1.0.0"
+  }
+}
