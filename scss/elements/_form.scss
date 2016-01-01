@@ -1,0 +1,21 @@
+button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+textarea {
+  height: em(64);
+}
+
+textarea,
+input[type='text'] {
+  border: solid em(2) $gray-3;
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  color: $gray-1;
+  background-color: $gray-3;
+}

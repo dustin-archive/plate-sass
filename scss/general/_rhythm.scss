@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  display: flex;
+  align-self: flex-start;
+  width: 100%;
+}
+
+._row, ._col, * {
+  > *:last-child {
+    margin: 0;
+  }
+}
+
+._col, * {
+  flex-direction: column;
+
+  > * {
+    margin: 0 0 0.75em 0;
+  }
+}
+
+._row {
+  flex-direction: row;
+
+  > * {
+    margin: 0 0.75em 0 0;
+  }
+}
+
+// fix cascading issues with margins

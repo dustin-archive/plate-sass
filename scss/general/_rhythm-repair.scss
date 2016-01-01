@@ -1,0 +1,36 @@
+head {
+  display: none;
+}
+
+// Firefox: ul, ol
+// Safari: body
+ul, ol, body {
+  display: block;
+}
+
+// h1, h2, h3, h4, h5, h6 {
+//   margin: 0;
+// }
+
+li {
+  display: list-item;
+  margin: 0;
+}
+
+button, input {
+  justify-content: center;
+  align-items: center;
+}
+
+table, colgroup, col, thead, tfoot, tbody, tr, th, td {
+  width: auto;
+}
+
+table    { display: table; }
+colgroup { display: table-column-group; }
+col      { display: table-column; }
+thead    { display: table-header-group; }
+tfoot    { display: table-footer-group; }
+tbody    { display: table-row-group; }
+tr       { display: table-row; }
+th, td   { display: table-cell; }

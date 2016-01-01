@@ -1,0 +1,16 @@
+input, textarea {
+  color: $gray-1;
+
+  &::-webkit-input-placeholder {
+    color: $gray-2;
+  }
+}
+
+blockquote, code, figure, kbd, pre, samp {
+  color: $gray-1;
+  background: $gray-3;
+}
+
+pre code {
+  background: transparent;
+}

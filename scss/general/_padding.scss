@@ -1,0 +1,12 @@
+pre,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  padding: em(4 16);
+}
+
+input,
+textarea {
+  padding: em(2 14);
+}

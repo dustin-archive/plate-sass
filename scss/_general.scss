@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  position: absolute;
+  content: '';
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  font-family: 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+}

@@ -1,0 +1,10 @@
+// It's probably a not a good idea to modify these variables unless you're
+// modifying or extending dinnerplate because they're not universally applied to
+// all elements.
+
+$line-height: 1.5 !default;
+
+$gray-1: layer(rgba(#000, 0.5), #FFF) !default;
+$gray-2: layer(rgba(#000, 0.25), #FFF) !default;
+$gray-3: layer(rgba(#000, 0.125), #FFF) !default;
+$gray-4: layer(rgba(#000, 0.0625), #FFF) !default;

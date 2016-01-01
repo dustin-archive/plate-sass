@@ -1,0 +1,36 @@
+@import '../../_sass/mint-sass/scss/main';
+@import '../../_sass/color-sass/scss/main';
+
+/*! dinnerplate v1.0.0 | MIT License | github.com/dustindowell22/dinnerplate */
+
+@import 'variables';
+@import 'normalize';
+
+@import 'general';
+@import 'general/padding';
+@import 'general/gray';
+@import 'general/monospace';
+@import 'general/rhythm';
+@import 'general/rhythm-repair';
+
+@import 'elements/anchor';
+@import 'elements/form';
+@import 'elements/headings';
+@import 'elements/list';
+@import 'elements/rule';
+
+@import 'components/helpers';
+@import 'components/variants';
+
+@import 'common';
+
+blockquote {
+  border-left: solid em(4) $gray-2;
+  padding: em(4 16 4 12);
+}
+
+figure {
+  padding: em(4 32);
+}
+
+// @import '../../somepaint/scss/main';
