@@ -20,6 +20,7 @@
     "scss/test"
   ],
   "dependencies": {
-    "mint-sass": "~1.0.0"
+    "mint-sass": "~1.0.0",
+    "color-sass": "~1.0.0"
   }
 }
