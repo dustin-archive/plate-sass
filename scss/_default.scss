@@ -13,6 +13,7 @@
 
 *::before, *::after {
   position: absolute;
+  width: 100%;
   content: '';
 }
 
@@ -25,4 +26,9 @@ body {
   width: 100%;
   font-family: 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
   line-height: 1.5;
+}
+
+#{$inline-block} {
+  display: block;
+  width: 100%;
 }
