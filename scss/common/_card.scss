@@ -1,0 +1,8 @@
+.card {
+  padding: em(16);
+  background-color: $gray-3;
+
+  @if $rhythm-sass {
+    align-self: stretch;
+  }
+}
