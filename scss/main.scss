@@ -1,17 +1,17 @@
 @import '../bower_components/mint-sass/scss/main';
 @import '../bower_components/color-sass/scss/main';
 
+@import '../../_sass/display-sass/scss/main';
+
 /*! dinnerplate v1.0.0 | MIT License | github.com/dustindowell22/dinnerplate */
 
 @import 'variables';
+@import 'default';
 @import 'normalize';
 
-@import 'general';
 @import 'general/padding';
 @import 'general/gray';
 @import 'general/monospace';
-@import 'general/rhythm';
-@import 'general/rhythm-repair';
 
 @import 'elements/anchor';
 @import 'elements/form';
@@ -22,7 +22,8 @@
 @import 'components/helpers';
 @import 'components/variants';
 
-@import 'common';
+@import 'common/card';
+@import 'common/mega';
 
 blockquote {
   border-left: solid em(4) $gray-2;
