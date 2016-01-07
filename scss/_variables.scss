@@ -1,6 +1,11 @@
 // It's probably a not a good idea to modify these variables unless you're
-// modifying or extending dinnerplate because they're not universally applied to
+// modifying or extending plate-sass because they're not universally applied to
 // all elements.
+
+$plate-sass: true;
+
+$paint-sass: false !default;
+$rhythm-sass: false !default;
 
 $line-height: 1.5 !default;
 
