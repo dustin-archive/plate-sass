@@ -7,16 +7,10 @@ textarea {
   }
 }
 
+#{$button},
+#{$code},
 blockquote,
-button,
-code,
-figure,
-input[type='button'],
-input[type='reset'],
-input[type='submit'],
-kbd,
-pre,
-samp {
+figure {
   color: $gray-1;
   background: $gray-3;
 }
