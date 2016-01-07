@@ -3,21 +3,22 @@
 
 @import '../../_sass/display-sass/scss/main';
 
+@import 'normalize';
+
 /*! dinnerplate v1.0.0 | MIT License | github.com/dustindowell22/dinnerplate */
 
 @import 'variables';
 @import 'default';
-@import 'normalize';
 
-@import 'general/padding';
+@import 'general/border';
 @import 'general/gray';
 @import 'general/monospace';
+@import 'general/padding';
 
 @import 'elements/anchor';
 @import 'elements/form';
 @import 'elements/headings';
 @import 'elements/list';
-@import 'elements/rule';
 
 @import 'components/helpers';
 @import 'components/variants';
