@@ -7,11 +7,6 @@ textarea {
   height: em(64);
 }
 
-textarea,
-input[type='text'] {
-  border: solid em(2) $gray-3;
-}
-
 button,
 input[type='button'],
 input[type='reset'],
