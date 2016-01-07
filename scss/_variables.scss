@@ -2,14 +2,12 @@
 // modifying or extending plate-sass because they're not universally applied to
 // all elements.
 
-$plate-sass: true;
-
-$paint-sass: false !default;
-$rhythm-sass: false !default;
-
 $line-height: 1.5 !default;
 
 $gray-1: layer(rgba(#000, 0.5), #FFF) !default;
 $gray-2: layer(rgba(#000, 0.25), #FFF) !default;
 $gray-3: layer(rgba(#000, 0.125), #FFF) !default;
 $gray-4: layer(rgba(#000, 0.0625), #FFF) !default;
+
+// Compatibillity (disabled by default)
+$rhythm-sass: false !default;
