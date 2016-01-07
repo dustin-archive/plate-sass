@@ -1,20 +1,19 @@
-.megatron {
+.mega {
   font-size: 2em;
   line-height: 1;
 
   &.-hero {
     color: #FFF;
     text-align: center;
-    // background-image: url('');
     background-position: center;
     background-size: cover;
+  }
 
-    &.-half {
-      min-height: 50vh;
-    }
+  &.-half {
+    min-height: 50vh;
+  }
 
-    &.-full {
-      min-height: 100vh;
-    }
+  &.-full {
+    min-height: 100vh;
   }
 }
