@@ -4,13 +4,13 @@
   width: 100%;
 }
 
-._row, ._col, * {
+*, ._row, ._col {
   > *:last-child {
     margin: 0;
   }
 }
 
-._col, * {
+*, ._col {
   flex-direction: column;
 
   > * {
