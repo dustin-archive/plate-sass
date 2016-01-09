@@ -31,6 +31,23 @@ blockquote {
   padding: em(4 16 4 12);
 }
 
+code {
+  padding: em(2 4);
+}
+
+pre code {
+  padding: auto;
+}
+
 figure {
   padding: em(4 32);
+}
+
+img {
+  width: 100%;
+}
+
+p img {
+  width: auto;
+  max-width: 100%;
 }
