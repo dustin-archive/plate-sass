@@ -1,16 +1,13 @@
 h1, h2, h3, h4, h5, h6 {
-  &.-title {
-    margin-top: 0.5em;
-    line-height: 1;
-
-    &::before {
-      bottom: 0;
-      border: rem(1) solid $gray-3;
-      z-index: -1;
-    }
+  &.-title::before {
+    bottom: 0;
+    border: rem(1) solid $gray-3;
+    z-index: -1;
   }
 }
 
-li a.-list {
-  display: inline-block;
+ul, ol {
+  > a.-list-anchor {
+    display: list-item;
+  }
 }
