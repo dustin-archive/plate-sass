@@ -2,8 +2,6 @@ hr {
   border: em(1) solid $gray-3;
 }
 
-fieldset,
-textarea,
-input[type='text'] {
+fieldset, textarea, input[type='text'] {
   border: em(2) solid $gray-3;
 }

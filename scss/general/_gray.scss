@@ -1,5 +1,4 @@
-input,
-textarea {
+input, textarea {
   color: $gray-1;
 
   &::-webkit-input-placeholder {
@@ -7,10 +6,7 @@ textarea {
   }
 }
 
-#{$button},
-#{$code},
-blockquote,
-figure {
+#{$button}, #{$code}, blockquote, figure {
   color: $gray-1;
   background: $gray-3;
 }
