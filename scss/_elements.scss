@@ -3,11 +3,6 @@ blockquote {
   border: solid $gray-2;
   border-width: em(0 0 0 4);
 
-  &.-reverse {
-    border-width: em(0 4 0 0);
-    text-align: right;
-  }
-
   footer {
     margin: em(4 0 0 0, 12);
     padding: em(6 0 0 0, 12);
@@ -21,8 +16,6 @@ blockquote {
   }
 }
 
-// ====
-
 code {
   padding: em(2 4);
 }
@@ -31,20 +24,14 @@ pre code {
   padding: auto;
 }
 
-// ====
-
 figure {
   padding: em(4 32);
 }
-
-// ====
 
 hr {
   height: em(2);
   background: $gray-3;
 }
-
-// ====
 
 img {
   width: 100%;
