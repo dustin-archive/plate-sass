@@ -1,3 +1,13 @@
+.card {
+  padding: em(8 16);
+  background: $gray-3;
+
+  @if $rhythm-sass {
+    align-self: stretch;
+  }
+}
+
+
 .mega {
   font-size: 2em;
   line-height: 1;
