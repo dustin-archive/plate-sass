@@ -1,0 +1,22 @@
+blockquote {
+  padding: em(4 16);
+  border: solid $gray-2;
+  border-width: em(0 0 0 4);
+
+  > footer {
+    margin: em(4 0 0 0, 12);
+    padding: em(6 0 0 0, 12);
+    font-size: em(12);
+
+    &::before {
+      top: 0;
+      height: rem(2);
+      background: $gray-2;
+    }
+  }
+
+  &.-reverse {
+    border-width: em(0 4 0 0);
+    text-align: right;
+  }
+}

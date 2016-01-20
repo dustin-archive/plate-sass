@@ -1,26 +1,17 @@
-blockquote {
-  padding: em(4 16);
-  border: solid $gray-2;
-  border-width: em(0 0 0 4);
+button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
 
-  footer {
-    margin: em(4 0 0 0, 12);
-    padding: em(6 0 0 0, 12);
-    font-size: em(12);
-
-    &::before {
-      top: 0;
-      height: em(2, 12);
-      background: $gray-2;
-    }
-  }
+textarea {
+  height: em(64);
 }
 
 code {
   padding: em(2 4);
 }
 
-pre code {
+pre > code {
   padding: auto;
 }
 
@@ -31,13 +22,21 @@ figure {
 hr {
   height: em(2);
   background: $gray-3;
+
+  &.-bold {
+    height: em(4);
+  }
 }
 
 img {
   width: 100%;
 }
 
-p img {
+p > img {
   width: auto;
   max-width: 100%;
+}
+
+ol, ul {
+  padding: em(0 0 0 32);
 }

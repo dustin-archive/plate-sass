@@ -4,4 +4,8 @@ a {
   &:hover, &:focus, &:active {
     text-decoration: underline;
   }
+
+  &.-list-anchor {
+    display: list-item;
+  }
 }
