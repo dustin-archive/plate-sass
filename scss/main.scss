@@ -1,8 +1,3 @@
-@import '../bower_components/mint-sass/scss/main';
-@import '../bower_components/color-sass/scss/main';
-
-@import '../../_sass/display-sass/scss/main';
-
 @import 'normalize';
 
 /*! plate v1.0.0 | MIT License | github.com/dustindowell22/plate */
@@ -20,34 +15,6 @@
 @import 'elements/headings';
 @import 'elements/list';
 
-@import 'components/helpers';
-@import 'components/variants';
-
-@import 'common/card';
-@import 'common/mega';
-
-blockquote {
-  border-left: solid em(4) $gray-2;
-  padding: em(4 16 4 12);
-}
-
-code {
-  padding: em(2 4);
-}
-
-pre code {
-  padding: auto;
-}
-
-figure {
-  padding: em(4 32);
-}
-
-img {
-  width: 100%;
-}
-
-p img {
-  width: auto;
-  max-width: 100%;
-}
+@import 'elements';
+@import 'classes';
+@import 'variants';
