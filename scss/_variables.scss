@@ -4,10 +4,10 @@
 
 $line-height: 1.5 !default;
 
-$gray-1: layer(rgba(#000, 0.5), #FFF) !default;
-$gray-2: layer(rgba(#000, 0.25), #FFF) !default;
-$gray-3: layer(rgba(#000, 0.125), #FFF) !default;
-$gray-4: layer(rgba(#000, 0.0625), #FFF) !default;
+$gray-1: tint($black, $white, 1 / 2) !default;
+$gray-2: tint($black, $white, 1 / 4) !default;
+$gray-3: tint($black, $white, 1 / 8) !default;
+$gray-4: tint($black, $white, 1 / 16) !default;
 
 // Compatibillity (disabled by default)
 $rhythm-sass: false !default;
