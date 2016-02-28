@@ -5,16 +5,20 @@
   margin: 0;
   padding: 0;
   border: 0;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+  border-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   word-wrap: break-word;
   box-sizing: border-box;
-}
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 
-*::before, *::after {
-  position: absolute;
-  width: 100%;
-  content: '';
+  &::before, &::after {
+    position: absolute;
+    width: 100%;
+    content: '';
+  }
 }
 
 html, body {
