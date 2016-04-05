@@ -5,10 +5,13 @@
   margin: 0;
   padding: 0;
   border: 0;
+  border-style: solid;
   border-color: transparent;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  // color: inherit;
+  // background-color: transparent;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: cover;
   word-wrap: break-word;
   box-sizing: border-box;
   -moz-osx-font-smoothing: grayscale;
@@ -25,6 +28,10 @@ html, body {
   height: 100%;
 }
 
+table {
+  width: 100%;
+}
+
 body {
   position: absolute;
   width: 100%;
@@ -34,9 +41,5 @@ body {
 
 #{$inline-block} {
   display: block;
-  width: 100%;
-}
-
-table {
   width: 100%;
 }

@@ -1,18 +1,8 @@
 @import 'normalize';
 
-/*! plate v1.0.0 | MIT License | github.com/dustindowell22/plate */
+/*! pilot v1.0.0 | MIT License | github.com/pilot-boilerplate */
 
 @import 'variables';
+@import 'placeholders';
 @import 'default';
-
-@import 'general/border';
-@import 'general/gray';
-@import 'general/monospace';
-@import 'general/padding';
-
-@import 'elements/anchor';
-@import 'elements/blockquote';
-@import 'elements/headings';
-
 @import 'elements';
-@import 'classes';
